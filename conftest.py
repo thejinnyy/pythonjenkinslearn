@@ -4,7 +4,7 @@ import pytest
 
 
 def pytest_addoption(config):
-    parser.addoption("--host", action="store", default="prod")
+   # parser.addoption("--host", action="store", default="prod")
     # Get the folder where conftest.py is located
     base_dir = os.path.dirname(__file__)
     
